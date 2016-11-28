@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09068E3E1DEBB8AA00D9DCD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09068E3D1DEBB8AA00D9DCD5 /* AppDelegate.swift */; };
+		09068E401DEBB8AA00D9DCD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09068E3F1DEBB8AA00D9DCD5 /* ViewController.swift */; };
+		09068E431DEBB8AA00D9DCD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09068E411DEBB8AA00D9DCD5 /* Main.storyboard */; };
+		09068E451DEBB8AA00D9DCD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09068E441DEBB8AA00D9DCD5 /* Assets.xcassets */; };
+		09068E481DEBB8AA00D9DCD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09068E461DEBB8AA00D9DCD5 /* LaunchScreen.storyboard */; };
+		09068E531DEBB8AA00D9DCD5 /* InfinitePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09068E521DEBB8AA00D9DCD5 /* InfinitePickerTests.swift */; };
+		09068E5E1DEBB8AA00D9DCD5 /* InfinitePickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09068E5D1DEBB8AA00D9DCD5 /* InfinitePickerUITests.swift */; };
+		09068E631DEBB8AA00D9DCD5 /* InfinitePicker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 09068E621DEBB8AA00D9DCD5 /* InfinitePicker WatchKit App.app */; };
+		09068E691DEBB8AA00D9DCD5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09068E671DEBB8AA00D9DCD5 /* Interface.storyboard */; };
+		09068E6B1DEBB8AA00D9DCD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09068E6A1DEBB8AA00D9DCD5 /* Assets.xcassets */; };
+		09068E721DEBB8AA00D9DCD5 /* InfinitePicker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 09068E711DEBB8AA00D9DCD5 /* InfinitePicker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		09068E791DEBB8AA00D9DCD5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09068E781DEBB8AA00D9DCD5 /* InterfaceController.swift */; };
+		09068E7B1DEBB8AA00D9DCD5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09068E7A1DEBB8AA00D9DCD5 /* ExtensionDelegate.swift */; };
+		09068E7D1DEBB8AA00D9DCD5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09068E7C1DEBB8AA00D9DCD5 /* NotificationController.swift */; };
+		09068E7F1DEBB8AA00D9DCD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09068E7E1DEBB8AA00D9DCD5 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09068E4F1DEBB8AA00D9DCD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09068E321DEBB8AA00D9DCD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09068E391DEBB8AA00D9DCD5;
+			remoteInfo = InfinitePicker;
+		};
+		09068E5A1DEBB8AA00D9DCD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09068E321DEBB8AA00D9DCD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09068E391DEBB8AA00D9DCD5;
+			remoteInfo = InfinitePicker;
+		};
+		09068E641DEBB8AA00D9DCD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09068E321DEBB8AA00D9DCD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09068E611DEBB8AA00D9DCD5;
+			remoteInfo = "InfinitePicker WatchKit App";
+		};
+		09068E731DEBB8AA00D9DCD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09068E321DEBB8AA00D9DCD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09068E701DEBB8AA00D9DCD5;
+			remoteInfo = "InfinitePicker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		09068E861DEBB8AA00D9DCD5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				09068E721DEBB8AA00D9DCD5 /* InfinitePicker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09068E8A1DEBB8AA00D9DCD5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				09068E631DEBB8AA00D9DCD5 /* InfinitePicker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09068E3A1DEBB8AA00D9DCD5 /* InfinitePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinitePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09068E3D1DEBB8AA00D9DCD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09068E3F1DEBB8AA00D9DCD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09068E421DEBB8AA00D9DCD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09068E441DEBB8AA00D9DCD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09068E471DEBB8AA00D9DCD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09068E491DEBB8AA00D9DCD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09068E4E1DEBB8AA00D9DCD5 /* InfinitePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfinitePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09068E521DEBB8AA00D9DCD5 /* InfinitePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinitePickerTests.swift; sourceTree = "<group>"; };
+		09068E541DEBB8AA00D9DCD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09068E591DEBB8AA00D9DCD5 /* InfinitePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfinitePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09068E5D1DEBB8AA00D9DCD5 /* InfinitePickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinitePickerUITests.swift; sourceTree = "<group>"; };
+		09068E5F1DEBB8AA00D9DCD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09068E621DEBB8AA00D9DCD5 /* InfinitePicker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "InfinitePicker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09068E681DEBB8AA00D9DCD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		09068E6A1DEBB8AA00D9DCD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09068E6C1DEBB8AA00D9DCD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09068E711DEBB8AA00D9DCD5 /* InfinitePicker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "InfinitePicker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09068E771DEBB8AA00D9DCD5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		09068E781DEBB8AA00D9DCD5 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		09068E7A1DEBB8AA00D9DCD5 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		09068E7C1DEBB8AA00D9DCD5 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		09068E7E1DEBB8AA00D9DCD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09068E801DEBB8AA00D9DCD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09068E371DEBB8AA00D9DCD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09068E4B1DEBB8AA00D9DCD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09068E561DEBB8AA00D9DCD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09068E6E1DEBB8AA00D9DCD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09068E311DEBB8AA00D9DCD5 = {
+			isa = PBXGroup;
+			children = (
+				09068E3C1DEBB8AA00D9DCD5 /* InfinitePicker */,
+				09068E511DEBB8AA00D9DCD5 /* InfinitePickerTests */,
+				09068E5C1DEBB8AA00D9DCD5 /* InfinitePickerUITests */,
+				09068E661DEBB8AA00D9DCD5 /* InfinitePicker WatchKit App */,
+				09068E751DEBB8AA00D9DCD5 /* InfinitePicker WatchKit Extension */,
+				09068E3B1DEBB8AA00D9DCD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09068E3B1DEBB8AA00D9DCD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09068E3A1DEBB8AA00D9DCD5 /* InfinitePicker.app */,
+				09068E4E1DEBB8AA00D9DCD5 /* InfinitePickerTests.xctest */,
+				09068E591DEBB8AA00D9DCD5 /* InfinitePickerUITests.xctest */,
+				09068E621DEBB8AA00D9DCD5 /* InfinitePicker WatchKit App.app */,
+				09068E711DEBB8AA00D9DCD5 /* InfinitePicker WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09068E3C1DEBB8AA00D9DCD5 /* InfinitePicker */ = {
+			isa = PBXGroup;
+			children = (
+				09068E3D1DEBB8AA00D9DCD5 /* AppDelegate.swift */,
+				09068E3F1DEBB8AA00D9DCD5 /* ViewController.swift */,
+				09068E411DEBB8AA00D9DCD5 /* Main.storyboard */,
+				09068E441DEBB8AA00D9DCD5 /* Assets.xcassets */,
+				09068E461DEBB8AA00D9DCD5 /* LaunchScreen.storyboard */,
+				09068E491DEBB8AA00D9DCD5 /* Info.plist */,
+			);
+			path = InfinitePicker;
+			sourceTree = "<group>";
+		};
+		09068E511DEBB8AA00D9DCD5 /* InfinitePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				09068E521DEBB8AA00D9DCD5 /* InfinitePickerTests.swift */,
+				09068E541DEBB8AA00D9DCD5 /* Info.plist */,
+			);
+			path = InfinitePickerTests;
+			sourceTree = "<group>";
+		};
+		09068E5C1DEBB8AA00D9DCD5 /* InfinitePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09068E5D1DEBB8AA00D9DCD5 /* InfinitePickerUITests.swift */,
+				09068E5F1DEBB8AA00D9DCD5 /* Info.plist */,
+			);
+			path = InfinitePickerUITests;
+			sourceTree = "<group>";
+		};
+		09068E661DEBB8AA00D9DCD5 /* InfinitePicker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				09068E671DEBB8AA00D9DCD5 /* Interface.storyboard */,
+				09068E6A1DEBB8AA00D9DCD5 /* Assets.xcassets */,
+				09068E6C1DEBB8AA00D9DCD5 /* Info.plist */,
+			);
+			path = "InfinitePicker WatchKit App";
+			sourceTree = "<group>";
+		};
+		09068E751DEBB8AA00D9DCD5 /* InfinitePicker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				09068E781DEBB8AA00D9DCD5 /* InterfaceController.swift */,
+				09068E7A1DEBB8AA00D9DCD5 /* ExtensionDelegate.swift */,
+				09068E7C1DEBB8AA00D9DCD5 /* NotificationController.swift */,
+				09068E7E1DEBB8AA00D9DCD5 /* Assets.xcassets */,
+				09068E801DEBB8AA00D9DCD5 /* Info.plist */,
+				09068E761DEBB8AA00D9DCD5 /* Supporting Files */,
+			);
+			path = "InfinitePicker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		09068E761DEBB8AA00D9DCD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09068E771DEBB8AA00D9DCD5 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09068E391DEBB8AA00D9DCD5 /* InfinitePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09068E8B1DEBB8AA00D9DCD5 /* Build configuration list for PBXNativeTarget "InfinitePicker" */;
+			buildPhases = (
+				09068E361DEBB8AA00D9DCD5 /* Sources */,
+				09068E371DEBB8AA00D9DCD5 /* Frameworks */,
+				09068E381DEBB8AA00D9DCD5 /* Resources */,
+				09068E8A1DEBB8AA00D9DCD5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09068E651DEBB8AA00D9DCD5 /* PBXTargetDependency */,
+			);
+			name = InfinitePicker;
+			productName = InfinitePicker;
+			productReference = 09068E3A1DEBB8AA00D9DCD5 /* InfinitePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09068E4D1DEBB8AA00D9DCD5 /* InfinitePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09068E8E1DEBB8AA00D9DCD5 /* Build configuration list for PBXNativeTarget "InfinitePickerTests" */;
+			buildPhases = (
+				09068E4A1DEBB8AA00D9DCD5 /* Sources */,
+				09068E4B1DEBB8AA00D9DCD5 /* Frameworks */,
+				09068E4C1DEBB8AA00D9DCD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09068E501DEBB8AA00D9DCD5 /* PBXTargetDependency */,
+			);
+			name = InfinitePickerTests;
+			productName = InfinitePickerTests;
+			productReference = 09068E4E1DEBB8AA00D9DCD5 /* InfinitePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09068E581DEBB8AA00D9DCD5 /* InfinitePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09068E911DEBB8AA00D9DCD5 /* Build configuration list for PBXNativeTarget "InfinitePickerUITests" */;
+			buildPhases = (
+				09068E551DEBB8AA00D9DCD5 /* Sources */,
+				09068E561DEBB8AA00D9DCD5 /* Frameworks */,
+				09068E571DEBB8AA00D9DCD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09068E5B1DEBB8AA00D9DCD5 /* PBXTargetDependency */,
+			);
+			name = InfinitePickerUITests;
+			productName = InfinitePickerUITests;
+			productReference = 09068E591DEBB8AA00D9DCD5 /* InfinitePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		09068E611DEBB8AA00D9DCD5 /* InfinitePicker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09068E871DEBB8AA00D9DCD5 /* Build configuration list for PBXNativeTarget "InfinitePicker WatchKit App" */;
+			buildPhases = (
+				09068E601DEBB8AA00D9DCD5 /* Resources */,
+				09068E861DEBB8AA00D9DCD5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09068E741DEBB8AA00D9DCD5 /* PBXTargetDependency */,
+			);
+			name = "InfinitePicker WatchKit App";
+			productName = "InfinitePicker WatchKit App";
+			productReference = 09068E621DEBB8AA00D9DCD5 /* InfinitePicker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		09068E701DEBB8AA00D9DCD5 /* InfinitePicker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09068E831DEBB8AA00D9DCD5 /* Build configuration list for PBXNativeTarget "InfinitePicker WatchKit Extension" */;
+			buildPhases = (
+				09068E6D1DEBB8AA00D9DCD5 /* Sources */,
+				09068E6E1DEBB8AA00D9DCD5 /* Frameworks */,
+				09068E6F1DEBB8AA00D9DCD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "InfinitePicker WatchKit Extension";
+			productName = "InfinitePicker WatchKit Extension";
+			productReference = 09068E711DEBB8AA00D9DCD5 /* InfinitePicker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09068E321DEBB8AA00D9DCD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Caius Durling";
+				TargetAttributes = {
+					09068E391DEBB8AA00D9DCD5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S656ZVC2J7;
+						ProvisioningStyle = Automatic;
+					};
+					09068E4D1DEBB8AA00D9DCD5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S656ZVC2J7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09068E391DEBB8AA00D9DCD5;
+					};
+					09068E581DEBB8AA00D9DCD5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S656ZVC2J7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09068E391DEBB8AA00D9DCD5;
+					};
+					09068E611DEBB8AA00D9DCD5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S656ZVC2J7;
+						ProvisioningStyle = Automatic;
+					};
+					09068E701DEBB8AA00D9DCD5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S656ZVC2J7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 09068E351DEBB8AA00D9DCD5 /* Build configuration list for PBXProject "InfinitePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09068E311DEBB8AA00D9DCD5;
+			productRefGroup = 09068E3B1DEBB8AA00D9DCD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09068E391DEBB8AA00D9DCD5 /* InfinitePicker */,
+				09068E4D1DEBB8AA00D9DCD5 /* InfinitePickerTests */,
+				09068E581DEBB8AA00D9DCD5 /* InfinitePickerUITests */,
+				09068E611DEBB8AA00D9DCD5 /* InfinitePicker WatchKit App */,
+				09068E701DEBB8AA00D9DCD5 /* InfinitePicker WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09068E381DEBB8AA00D9DCD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09068E481DEBB8AA00D9DCD5 /* LaunchScreen.storyboard in Resources */,
+				09068E451DEBB8AA00D9DCD5 /* Assets.xcassets in Resources */,
+				09068E431DEBB8AA00D9DCD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09068E4C1DEBB8AA00D9DCD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09068E571DEBB8AA00D9DCD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09068E601DEBB8AA00D9DCD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09068E6B1DEBB8AA00D9DCD5 /* Assets.xcassets in Resources */,
+				09068E691DEBB8AA00D9DCD5 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09068E6F1DEBB8AA00D9DCD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09068E7F1DEBB8AA00D9DCD5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09068E361DEBB8AA00D9DCD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09068E401DEBB8AA00D9DCD5 /* ViewController.swift in Sources */,
+				09068E3E1DEBB8AA00D9DCD5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09068E4A1DEBB8AA00D9DCD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09068E531DEBB8AA00D9DCD5 /* InfinitePickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09068E551DEBB8AA00D9DCD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09068E5E1DEBB8AA00D9DCD5 /* InfinitePickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09068E6D1DEBB8AA00D9DCD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09068E7D1DEBB8AA00D9DCD5 /* NotificationController.swift in Sources */,
+				09068E7B1DEBB8AA00D9DCD5 /* ExtensionDelegate.swift in Sources */,
+				09068E791DEBB8AA00D9DCD5 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09068E501DEBB8AA00D9DCD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09068E391DEBB8AA00D9DCD5 /* InfinitePicker */;
+			targetProxy = 09068E4F1DEBB8AA00D9DCD5 /* PBXContainerItemProxy */;
+		};
+		09068E5B1DEBB8AA00D9DCD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09068E391DEBB8AA00D9DCD5 /* InfinitePicker */;
+			targetProxy = 09068E5A1DEBB8AA00D9DCD5 /* PBXContainerItemProxy */;
+		};
+		09068E651DEBB8AA00D9DCD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09068E611DEBB8AA00D9DCD5 /* InfinitePicker WatchKit App */;
+			targetProxy = 09068E641DEBB8AA00D9DCD5 /* PBXContainerItemProxy */;
+		};
+		09068E741DEBB8AA00D9DCD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09068E701DEBB8AA00D9DCD5 /* InfinitePicker WatchKit Extension */;
+			targetProxy = 09068E731DEBB8AA00D9DCD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09068E411DEBB8AA00D9DCD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09068E421DEBB8AA00D9DCD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09068E461DEBB8AA00D9DCD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09068E471DEBB8AA00D9DCD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		09068E671DEBB8AA00D9DCD5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09068E681DEBB8AA00D9DCD5 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09068E811DEBB8AA00D9DCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09068E821DEBB8AA00D9DCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09068E841DEBB8AA00D9DCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = S656ZVC2J7;
+				INFOPLIST_FILE = "InfinitePicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swedishcampground.InfinitePicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		09068E851DEBB8AA00D9DCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = S656ZVC2J7;
+				INFOPLIST_FILE = "InfinitePicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swedishcampground.InfinitePicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		09068E881DEBB8AA00D9DCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S656ZVC2J7;
+				IBSC_MODULE = InfinitePicker_WatchKit_Extension;
+				INFOPLIST_FILE = "InfinitePicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swedishcampground.InfinitePicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		09068E891DEBB8AA00D9DCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S656ZVC2J7;
+				IBSC_MODULE = InfinitePicker_WatchKit_Extension;
+				INFOPLIST_FILE = "InfinitePicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swedishcampground.InfinitePicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		09068E8C1DEBB8AA00D9DCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S656ZVC2J7;
+				INFOPLIST_FILE = InfinitePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swedishcampground.InfinitePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		09068E8D1DEBB8AA00D9DCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S656ZVC2J7;
+				INFOPLIST_FILE = InfinitePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swedishcampground.InfinitePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		09068E8F1DEBB8AA00D9DCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S656ZVC2J7;
+				INFOPLIST_FILE = InfinitePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swedishcampground.InfinitePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfinitePicker.app/InfinitePicker";
+			};
+			name = Debug;
+		};
+		09068E901DEBB8AA00D9DCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S656ZVC2J7;
+				INFOPLIST_FILE = InfinitePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swedishcampground.InfinitePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfinitePicker.app/InfinitePicker";
+			};
+			name = Release;
+		};
+		09068E921DEBB8AA00D9DCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S656ZVC2J7;
+				INFOPLIST_FILE = InfinitePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swedishcampground.InfinitePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = InfinitePicker;
+			};
+			name = Debug;
+		};
+		09068E931DEBB8AA00D9DCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S656ZVC2J7;
+				INFOPLIST_FILE = InfinitePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swedishcampground.InfinitePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = InfinitePicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09068E351DEBB8AA00D9DCD5 /* Build configuration list for PBXProject "InfinitePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09068E811DEBB8AA00D9DCD5 /* Debug */,
+				09068E821DEBB8AA00D9DCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09068E831DEBB8AA00D9DCD5 /* Build configuration list for PBXNativeTarget "InfinitePicker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09068E841DEBB8AA00D9DCD5 /* Debug */,
+				09068E851DEBB8AA00D9DCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09068E871DEBB8AA00D9DCD5 /* Build configuration list for PBXNativeTarget "InfinitePicker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09068E881DEBB8AA00D9DCD5 /* Debug */,
+				09068E891DEBB8AA00D9DCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09068E8B1DEBB8AA00D9DCD5 /* Build configuration list for PBXNativeTarget "InfinitePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09068E8C1DEBB8AA00D9DCD5 /* Debug */,
+				09068E8D1DEBB8AA00D9DCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09068E8E1DEBB8AA00D9DCD5 /* Build configuration list for PBXNativeTarget "InfinitePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09068E8F1DEBB8AA00D9DCD5 /* Debug */,
+				09068E901DEBB8AA00D9DCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09068E911DEBB8AA00D9DCD5 /* Build configuration list for PBXNativeTarget "InfinitePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09068E921DEBB8AA00D9DCD5 /* Debug */,
+				09068E931DEBB8AA00D9DCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09068E321DEBB8AA00D9DCD5 /* Project object */;
+}
